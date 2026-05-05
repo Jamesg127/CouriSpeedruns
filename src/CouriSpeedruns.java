@@ -1,15 +1,14 @@
 public class CouriSpeedruns {
-    private int realTime;
-    private int nether;
-    private int end;
-    private int inGameTime;
-    private int blazeRods;
-    private int blazeKilled;
+    private String realTime;
+    private String nether;
+    private String end;
+    private String inGameTime;
+    private double blazeRods;
+    private double blazeKilled;
     private long seed;
     private int runNumber;
     private int deaths;
-
-    public CouriSpeedruns(int rta, int n, int e, int igt, int br, int bk, long s, int rn, int d){
+    public CouriSpeedruns(String rta, String n, String e, String igt, double br, double bk, long s, int rn, int d){
         realTime = rta;
         nether = n;
         end = e;
@@ -20,21 +19,22 @@ public class CouriSpeedruns {
         runNumber = rn;
         deaths = d;
     }
-    public int getRealTime(){
+    public String getRealTime(){
         return realTime;
     }
-    public int getNether(){
+    public String getNether(){
         return nether;
     }
-    public int getEnd(){
+    public String getEnd(){
         return end;
     }
-    public int getInGameTime(){
+    public String getInGameTime(){
         return inGameTime;
-    }public int getBlazeRods(){
+    }
+    public double getBlazeRods(){
         return blazeRods;
     }
-    public int getBlazeKilled(){
+    public double getBlazeKilled(){
         return blazeKilled;
     }
     public long getSeed(){
