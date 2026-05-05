@@ -33,6 +33,6 @@ All you have to do to install and run Couriway Speedruns is to clone the reposit
 
 ###Resources
 
-Thank You to Pranav Illendula for all the information on Kaggle. Make sure you check out their project, because there is a lot more information there than there is on this!
+Thank You to *Pranav Illendula* for all the information on *Kaggle*. Make sure you check out their project, because there is a lot more information there than there is on this!
 
 (Unfinished)
