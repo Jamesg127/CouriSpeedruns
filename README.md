@@ -1,6 +1,6 @@
 # Couriway Speedruns
 
-Couriway Speedruns is a program run with Java code that tracks the most important parts of Couriway's journey to 100,000 Minecraft speedruns. This includes time entering the nether and end, the seed, the amount of deaths(excluding hunger resets) time of the run, run number, time paused each run, blaze killed to blaze rods dropped ratio, and more! (Runs 1 - 6716)
+Couriway Speedruns is a program run with Java code that tracks the most important parts of Couriway's journey to 100,000 Minecraft speedruns. This includes time entering the nether and end, the seed, the amount of deaths(excluding hunger resets) time of the run, run number, time paused each run, blaze killed to blaze rods dropped ratio, and more! (Runs 1 - 4976)
 
 ### Overview
 
