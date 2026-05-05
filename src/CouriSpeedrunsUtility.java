@@ -12,7 +12,7 @@ public class CouriSpeedrunsUtility {
         String[] r = new String[9];
         while (scan.hasNextLine()) {
             r = scan.nextLine().split(",");
-            arr.add(new CouriSpeedruns(r[0], r[1], r[2], r[3], Double.parseDouble(r[4]), Double.parseDouble(r[5]), Long.parseLong(r[6]), Integer.parseInt(r[7]), Integer.parseInt(r[8])));
+            arr.add(new CouriSpeedruns(r[0], r[1], r[2], r[3], Double.parseDouble(r[4]), Double.parseDouble(r[5]), Long.parseLong(r[6]), Integer.parseInt(r[7])));
         }
         speedruns = arr;
     }

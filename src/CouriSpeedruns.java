@@ -8,7 +8,7 @@ public class CouriSpeedruns {
     private long seed;
     private int runNumber;
     private int deaths;
-    public CouriSpeedruns(String rta, String n, String e, String igt, double br, double bk, long s, int rn, int d){
+    public CouriSpeedruns(String rta, String n, String e, String igt, double br, double bk, long s, int d){
         realTime = rta;
         nether = n;
         end = e;
@@ -16,7 +16,6 @@ public class CouriSpeedruns {
         blazeRods = br;
         blazeKilled = bk;
         seed = s;
-        runNumber = rn;
         deaths = d;
     }
     public String getRealTime(){
